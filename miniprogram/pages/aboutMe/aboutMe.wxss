@@ -1,0 +1,7 @@
+.stories_area{
+  border: solid 2rpx black;
+  width: 100%;
+  margin-top: 20rpx;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+}

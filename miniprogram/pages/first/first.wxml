@@ -1,0 +1,16 @@
+<view class="container">
+  <view class="userinfo">
+      <button 
+      open-type="getUserInfo" 
+      bindgetuserinfo="onGetUserInfo"
+      style="background-image: url({{avatarUrl}})"
+      class="userInfo-avatar"
+      ></button>
+      <!-- 调用云函数获取openid -->
+      <text class='' bindtap="onGetOpenid"></text> 
+  </view>
+  <view class="stories_area" bindtap='goToMaking'>创造一个新故事</view>
+  <view class="stories_area" bindtap='goToaboutMe'>我参与创建的故事</view>
+  <view class="stories_area" bindtap=''></view>
+  <view class="stories_area" bindtap=''></view>
+</view>

@@ -1,0 +1,17 @@
+.stories_area{
+  width: 100%
+}
+.making{
+    display: flex;
+    border-bottom: solid 2rpx black;
+    border-top: solid 2rpx black;
+    margin-bottom: 30rpx;
+    margin-top: 30rpx;
+    padding: 30rpx
+}
+.story_content{
+  height: 500rpx
+}
+.story_author{
+  height: 80rpx
+}

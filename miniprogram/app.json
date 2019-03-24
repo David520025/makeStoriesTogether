@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/first/first",
+    "pages/second/second",
+    "pages/third/third",
+    "pages/fourth/fourth",
+
+    "pages/making/making",
+    "pages/aboutMe/aboutMe",
+
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/first/first",
+        "text": "个人"
+      },
+      {
+        "pagePath": "pages/second/second",
+        "text": "主页"
+      }
+    ]
+  },
+  
+
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "一起编故事",
+    "navigationBarTextStyle": "black"
+  }
+}

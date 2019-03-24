@@ -1,0 +1,8 @@
+<!--pages/aboutMe/aboutMe.wxml-->
+<view class='container'>
+  <view class="stories_area" wx:for="{{storyResult}}" >
+    <view class='storyResult storyContent'>故事序号:{{storyResult[index].sub}} </view>
+    <view class='storyResult storyAuthor'> 作者:{{storyResult[index].storyAuthor}}</view>
+    <view class='storyResult storyContent'>内容:{{storyResult[index].storyContent}}</view>
+  </view>
+</view>

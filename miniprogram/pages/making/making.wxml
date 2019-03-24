@@ -1,0 +1,12 @@
+<!--pages/making/making.wxml-->
+<view class="container" >
+  <view class="stories_area">
+        <input maxlength='-1' class="making story_content" placeholder='编辑故事内容'  confirm-type="done" value="{{storyContent}}" bindinput="bindkeyinputstory"/>
+        <input maxlength='-1' class="making story_author"  placeholder='署下您的大名'  confirm-type="done" value="{{storyAuthor}}" bindinput="bindkeyinputauthor"/>
+  </view>
+
+  <view class='button_area'><button size="mini" type="default" bindtap="onAdd">编辑完成</button></view>
+    <view class='button_area'><button size="mini" type="default" bindtap="inquere">查看故事    </button></view>
+    
+    
+</view>

@@ -1,0 +1,10 @@
+<view class='container'>
+    <view class="stories_area" bindtap="{{}}">故事推荐1 （待开发）</view>
+    <view class="stories_area" bindtap="{{}}">故事推荐2（待开发）</view>
+    <view class="stories_area" bindtap="{{}}">故事推荐3 （待开发）</view>
+    <view class="stories_area">故事推荐4 （待开发）</view>
+    <view class="stories_area">故事推荐5 （待开发）</view>
+    <view class="stories_area">故事推荐6 （待开发）</view>
+    <view class="stories_area">故事推荐7 （待开发）</view>
+    <view class="stories_area">故事推荐8 （待开发）</view>
+</view>
